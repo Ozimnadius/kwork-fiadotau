@@ -1,0 +1,1 @@
+window.addEventListener("DOMContentLoaded",(function(){new Swiper(".projects__swiper",{slidesPerView:"auto",spaceBetween:25});document.querySelectorAll(".project__wrap").forEach((e=>{e.closest(".project").style.setProperty("--projectH",`${e.offsetHeight}px`)}))}));

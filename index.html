@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>Kwork</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!--Сюда надо добавлять шрифты для более быстрой загрузки.
+    <link rel="preload" href="/fonts/Font.woff2" as="font" type="font/woff2" crossorigin>-->
+    <link rel="stylesheet" href="css/libs.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script defer src="js/libs.js"></script>
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    <div class="wrapper__header">
+        <header class="header"></header>
+    </div>
+    <div class="wrapper__content">
+        <main class="page">
+            <div class="projects">
+                <div class="projects__container">
+                    <div class="projects__inner">
+                        <div class="projects__top">
+                            <div class="projects__top-left">
+                                <h2 class="projects__title">
+                                    Реализованные проекты
+                                </h2>
+                            </div>
+                            <div class="projects__top-right">
+                                <div class="projects__hand">
+                                    <div class="projects__hand-animation">
+                                        <svg width="18" height="21" viewBox="0 0 18 21" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M5.47876 11V2.5C5.47876 2.10218 5.63679 1.72064 5.9181 1.43934C6.1994 1.15804 6.58094 1 6.97876 1C7.37658 1 7.75812 1.15804 8.03942 1.43934C8.32072 1.72064 8.47876 2.10218 8.47876 2.5V10M8.47876 9.5V7.5C8.47876 7.30302 8.51756 7.10796 8.59294 6.92597C8.66832 6.74399 8.77881 6.57863 8.9181 6.43934C9.05739 6.30005 9.22275 6.18956 9.40473 6.11418C9.58672 6.0388 9.78178 6 9.97876 6C10.1757 6 10.3708 6.0388 10.5528 6.11418C10.7348 6.18956 10.9001 6.30005 11.0394 6.43934C11.1787 6.57863 11.2892 6.74399 11.3646 6.92597C11.44 7.10796 11.4788 7.30302 11.4788 7.5V10M11.4788 8.5C11.4788 8.10218 11.6368 7.72064 11.9181 7.43934C12.1994 7.15804 12.5809 7 12.9788 7C13.3766 7 13.7581 7.15804 14.0394 7.43934C14.3207 7.72064 14.4788 8.10218 14.4788 8.5V10"
+                                                  stroke="#54555F" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M14.4787 9.5C14.4787 9.10218 14.6367 8.72064 14.918 8.43934C15.1993 8.15804 15.5809 8 15.9787 8C16.3765 8 16.7581 8.15804 17.0394 8.43934C17.3207 8.72064 17.4787 9.10218 17.4787 9.5V14C17.4787 15.5913 16.8466 17.1174 15.7213 18.2426C14.5961 19.3679 13.07 20 11.4787 20H9.4787H9.6867C8.69304 20.0002 7.71489 19.7535 6.84008 19.2823C5.96528 18.811 5.22121 18.1299 4.6747 17.3C4.60911 17.2002 4.54378 17.1002 4.4787 17C4.1667 16.521 3.0717 14.612 1.1927 11.272C1.00115 10.9315 0.949982 10.5298 1.05008 10.1522C1.15018 9.77454 1.39365 9.45088 1.7287 9.25C2.08558 9.03587 2.50377 8.94712 2.91686 8.99785C3.32995 9.04858 3.71424 9.23588 4.0087 9.53L5.4787 11"
+                                                  stroke="#54555F" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </div>
+                                    <div class="projects__hand-arrow">
+                                        <svg width="51" height="8" viewBox="0 0 51 8" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M50.3536 4.35355C50.5488 4.15829 50.5488 3.84171 50.3536 3.64645L47.1716 0.464466C46.9763 0.269204 46.6597 0.269204 46.4645 0.464466C46.2692 0.659728 46.2692 0.976311 46.4645 1.17157L49.2929 4L46.4645 6.82843C46.2692 7.02369 46.2692 7.34027 46.4645 7.53553C46.6597 7.7308 46.9763 7.7308 47.1716 7.53553L50.3536 4.35355ZM0 4.5H50V3.5H0V4.5Z"
+                                                  fill="#54555F"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="projects__btn">
+                                    <button type="button" class="projects-btn">
+                                        <span class="projects-btn__arrow projects-btn__before">
+                                        <svg width="10" height="10" viewBox="0 0 10 10" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9.99309 0.757395C9.99309 0.343181 9.65731 0.0073947 9.24309 0.00739485L2.49309 0.00739443C2.07888 0.00739443 1.74309 0.343181 1.74309 0.757395C1.74309 1.17161 2.07888 1.50739 2.49309 1.50739H8.49309V7.50739C8.49309 7.92161 8.82888 8.25739 9.24309 8.25739C9.65731 8.25739 9.99309 7.92161 9.99309 7.50739L9.99309 0.757395ZM1.28814 9.77301L9.77342 1.28772L8.71276 0.227064L0.227482 8.71235L1.28814 9.77301Z"
+                                                  fill="black"/>
+                                        </svg>
+                                    </span>
+                                        <span class="projects-btn__main">Больше проектов</span>
+                                        <span class="projects-btn__arrow projects-btn__after">
+                                        <svg width="10" height="10" viewBox="0 0 10 10" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9.99309 0.757395C9.99309 0.343181 9.65731 0.0073947 9.24309 0.00739485L2.49309 0.00739443C2.07888 0.00739443 1.74309 0.343181 1.74309 0.757395C1.74309 1.17161 2.07888 1.50739 2.49309 1.50739H8.49309V7.50739C8.49309 7.92161 8.82888 8.25739 9.24309 8.25739C9.65731 8.25739 9.99309 7.92161 9.99309 7.50739L9.99309 0.757395ZM1.28814 9.77301L9.77342 1.28772L8.71276 0.227064L0.227482 8.71235L1.28814 9.77301Z"
+                                                  fill="black"/>
+                                        </svg>
+                                    </span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="projects__main">
+                            <div class="projects__swiper swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide projects__slide">
+                                        <div class="project">
+                                            <div class="project__top">
+                                                <div class="project__img">
+                                                    <img src="images/content/projects/1.jpg"
+                                                         alt="Живописный поселок “Северная жемчужина”">
+                                                </div>
+                                                <div class="project__wrap">
+                                                    <div class="project__chars">
+                                                        <div class="project__char">
+                                                            <div class="project__char-name">Площадь квартиры</div>
+                                                            <div class="project__char-val">84 кв.м.</div>
+                                                        </div>
+                                                        <div class="project__char">
+                                                            <div class="project__char-name">Стоимость за кв.м.</div>
+                                                            <div class="project__char-val">28 000 ₽</div>
+                                                        </div>
+                                                        <div class="project__char">
+                                                            <div class="project__char-name">Срок реализации проекта</div>
+                                                            <div class="project__char-val">6 месяцев</div>
+                                                        </div>
+                                                    </div>
+                                                    <a href="/" class="project__link">
+                                                        К проекту
+                                                        <svg width="9" height="9" viewBox="0 0 9 9" fill="none"
+                                                             xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8.03542 1.46458C8.03542 1.18843 7.81157 0.964577 7.53542 0.964577L3.03542 0.964577C2.75928 0.964577 2.53542 1.18843 2.53542 1.46458C2.53542 1.74072 2.75928 1.96458 3.03542 1.96458L7.03542 1.96458L7.03542 5.96458C7.03542 6.24072 7.25928 6.46458 7.53542 6.46458C7.81157 6.46458 8.03542 6.24072 8.03542 5.96458L8.03542 1.46458ZM0.817909 8.8892L7.88898 1.81813L7.18187 1.11102L0.110802 8.18209L0.817909 8.8892Z"
+                                                                  fill="#DB9641"/>
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="project__name">
+                                                Живописный поселок “Северная жемчужина”
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide projects__slide">
+                                        <div class="project">
+                                            <div class="project__top">
+                                                <div class="project__img">
+                                                    <img src="images/content/projects/2.jpg"
+                                                         alt="Жилой комплекс “LEGENDA Комендантского”">
+                                                </div>
+                                                <div class="project__wrap">
+                                                    <div class="project__chars">
+                                                        <div class="project__char">
+                                                            <div class="project__char-name">Площадь квартиры</div>
+                                                            <div class="project__char-val">84 кв.м.</div>
+                                                        </div>
+                                                        <div class="project__char">
+                                                            <div class="project__char-name">Стоимость за кв.м.</div>
+                                                            <div class="project__char-val">28 000 ₽</div>
+                                                        </div>
+                                                        <div class="project__char">
+                                                            <div class="project__char-name">Срок реализации проекта</div>
+                                                            <div class="project__char-val">6 месяцев</div>
+                                                        </div>
+                                                    </div>
+                                                    <a href="/" class="project__link">
+                                                        К проекту
+                                                        <svg width="9" height="9" viewBox="0 0 9 9" fill="none"
+                                                             xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8.03542 1.46458C8.03542 1.18843 7.81157 0.964577 7.53542 0.964577L3.03542 0.964577C2.75928 0.964577 2.53542 1.18843 2.53542 1.46458C2.53542 1.74072 2.75928 1.96458 3.03542 1.96458L7.03542 1.96458L7.03542 5.96458C7.03542 6.24072 7.25928 6.46458 7.53542 6.46458C7.81157 6.46458 8.03542 6.24072 8.03542 5.96458L8.03542 1.46458ZM0.817909 8.8892L7.88898 1.81813L7.18187 1.11102L0.110802 8.18209L0.817909 8.8892Z"
+                                                                  fill="#DB9641"/>
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="project__name">
+                                                Жилой комплекс “LEGENDA Комендантского”
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide projects__slide">
+                                        <div class="project">
+                                            <div class="project__top">
+                                                <div class="project__img">
+                                                    <img src="images/content/projects/3.jpg"
+                                                         alt="Шоурум в Севкабель ПОРТ">
+                                                </div>
+                                                <div class="project__wrap">
+                                                    <div class="project__chars">
+                                                        <div class="project__char">
+                                                            <div class="project__char-name">Площадь квартиры</div>
+                                                            <div class="project__char-val">84 кв.м.</div>
+                                                        </div>
+                                                        <div class="project__char">
+                                                            <div class="project__char-name">Стоимость за кв.м.</div>
+                                                            <div class="project__char-val">28 000 ₽</div>
+                                                        </div>
+                                                        <div class="project__char">
+                                                            <div class="project__char-name">Срок реализации проекта</div>
+                                                            <div class="project__char-val">6 месяцев</div>
+                                                        </div>
+                                                    </div>
+                                                    <a href="/" class="project__link">
+                                                        К проекту
+                                                        <svg width="9" height="9" viewBox="0 0 9 9" fill="none"
+                                                             xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8.03542 1.46458C8.03542 1.18843 7.81157 0.964577 7.53542 0.964577L3.03542 0.964577C2.75928 0.964577 2.53542 1.18843 2.53542 1.46458C2.53542 1.74072 2.75928 1.96458 3.03542 1.96458L7.03542 1.96458L7.03542 5.96458C7.03542 6.24072 7.25928 6.46458 7.53542 6.46458C7.81157 6.46458 8.03542 6.24072 8.03542 5.96458L8.03542 1.46458ZM0.817909 8.8892L7.88898 1.81813L7.18187 1.11102L0.110802 8.18209L0.817909 8.8892Z"
+                                                                  fill="#DB9641"/>
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="project__name">
+                                                Шоурум в Севкабель ПОРТ
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide projects__slide">
+                                        <div class="project">
+                                            <div class="project__top">
+                                                <div class="project__img">
+                                                    <img src="images/content/projects/4.jpg"
+                                                         alt="Двухкомнатная квартира в ЖК Петроский квартал">
+                                                </div>
+                                                <div class="project__wrap">
+                                                    <div class="project__chars">
+                                                        <div class="project__char">
+                                                            <div class="project__char-name">Площадь квартиры</div>
+                                                            <div class="project__char-val">84 кв.м.</div>
+                                                        </div>
+                                                        <div class="project__char">
+                                                            <div class="project__char-name">Стоимость за кв.м.</div>
+                                                            <div class="project__char-val">28 000 ₽</div>
+                                                        </div>
+                                                        <div class="project__char">
+                                                            <div class="project__char-name">Срок реализации проекта</div>
+                                                            <div class="project__char-val">6 месяцев</div>
+                                                        </div>
+                                                    </div>
+                                                    <a href="/" class="project__link">
+                                                        К проекту
+                                                        <svg width="9" height="9" viewBox="0 0 9 9" fill="none"
+                                                             xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8.03542 1.46458C8.03542 1.18843 7.81157 0.964577 7.53542 0.964577L3.03542 0.964577C2.75928 0.964577 2.53542 1.18843 2.53542 1.46458C2.53542 1.74072 2.75928 1.96458 3.03542 1.96458L7.03542 1.96458L7.03542 5.96458C7.03542 6.24072 7.25928 6.46458 7.53542 6.46458C7.81157 6.46458 8.03542 6.24072 8.03542 5.96458L8.03542 1.46458ZM0.817909 8.8892L7.88898 1.81813L7.18187 1.11102L0.110802 8.18209L0.817909 8.8892Z"
+                                                                  fill="#DB9641"/>
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="project__name">
+                                                Двухкомнатная квартира в ЖК Петроский квартал
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide projects__slide">
+                                        <div class="project">
+                                            <div class="project__top">
+                                                <div class="project__img">
+                                                    <img src="images/content/projects/1.jpg"
+                                                         alt="Живописный поселок “Северная жемчужина”">
+                                                </div>
+                                                <div class="project__wrap">
+                                                    <div class="project__chars">
+                                                        <div class="project__char">
+                                                            <div class="project__char-name">Площадь квартиры</div>
+                                                            <div class="project__char-val">84 кв.м.</div>
+                                                        </div>
+                                                        <div class="project__char">
+                                                            <div class="project__char-name">Стоимость за кв.м.</div>
+                                                            <div class="project__char-val">28 000 ₽</div>
+                                                        </div>
+                                                        <div class="project__char">
+                                                            <div class="project__char-name">Срок реализации проекта</div>
+                                                            <div class="project__char-val">6 месяцев</div>
+                                                        </div>
+                                                    </div>
+                                                    <a href="/" class="project__link">
+                                                        К проекту
+                                                        <svg width="9" height="9" viewBox="0 0 9 9" fill="none"
+                                                             xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8.03542 1.46458C8.03542 1.18843 7.81157 0.964577 7.53542 0.964577L3.03542 0.964577C2.75928 0.964577 2.53542 1.18843 2.53542 1.46458C2.53542 1.74072 2.75928 1.96458 3.03542 1.96458L7.03542 1.96458L7.03542 5.96458C7.03542 6.24072 7.25928 6.46458 7.53542 6.46458C7.81157 6.46458 8.03542 6.24072 8.03542 5.96458L8.03542 1.46458ZM0.817909 8.8892L7.88898 1.81813L7.18187 1.11102L0.110802 8.18209L0.817909 8.8892Z"
+                                                                  fill="#DB9641"/>
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="project__name">
+                                                Живописный поселок “Северная жемчужина”
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide projects__slide">
+                                        <div class="project">
+                                            <div class="project__top">
+                                                <div class="project__img">
+                                                    <img src="images/content/projects/2.jpg"
+                                                         alt="Жилой комплекс “LEGENDA Комендантского”">
+                                                </div>
+                                                <div class="project__wrap">
+                                                    <div class="project__chars">
+                                                        <div class="project__char">
+                                                            <div class="project__char-name">Площадь квартиры</div>
+                                                            <div class="project__char-val">84 кв.м.</div>
+                                                        </div>
+                                                        <div class="project__char">
+                                                            <div class="project__char-name">Стоимость за кв.м.</div>
+                                                            <div class="project__char-val">28 000 ₽</div>
+                                                        </div>
+                                                        <div class="project__char">
+                                                            <div class="project__char-name">Срок реализации проекта</div>
+                                                            <div class="project__char-val">6 месяцев</div>
+                                                        </div>
+                                                    </div>
+                                                    <a href="/" class="project__link">
+                                                        К проекту
+                                                        <svg width="9" height="9" viewBox="0 0 9 9" fill="none"
+                                                             xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8.03542 1.46458C8.03542 1.18843 7.81157 0.964577 7.53542 0.964577L3.03542 0.964577C2.75928 0.964577 2.53542 1.18843 2.53542 1.46458C2.53542 1.74072 2.75928 1.96458 3.03542 1.96458L7.03542 1.96458L7.03542 5.96458C7.03542 6.24072 7.25928 6.46458 7.53542 6.46458C7.81157 6.46458 8.03542 6.24072 8.03542 5.96458L8.03542 1.46458ZM0.817909 8.8892L7.88898 1.81813L7.18187 1.11102L0.110802 8.18209L0.817909 8.8892Z"
+                                                                  fill="#DB9641"/>
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="project__name">
+                                                Жилой комплекс “LEGENDA Комендантского”
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide projects__slide">
+                                        <div class="project">
+                                            <div class="project__top">
+                                                <div class="project__img">
+                                                    <img src="images/content/projects/3.jpg"
+                                                         alt="Шоурум в Севкабель ПОРТ">
+                                                </div>
+                                                <div class="project__wrap">
+                                                    <div class="project__chars">
+                                                        <div class="project__char">
+                                                            <div class="project__char-name">Площадь квартиры</div>
+                                                            <div class="project__char-val">84 кв.м.</div>
+                                                        </div>
+                                                        <div class="project__char">
+                                                            <div class="project__char-name">Стоимость за кв.м.</div>
+                                                            <div class="project__char-val">28 000 ₽</div>
+                                                        </div>
+                                                        <div class="project__char">
+                                                            <div class="project__char-name">Срок реализации проекта</div>
+                                                            <div class="project__char-val">6 месяцев</div>
+                                                        </div>
+                                                    </div>
+                                                    <a href="/" class="project__link">
+                                                        К проекту
+                                                        <svg width="9" height="9" viewBox="0 0 9 9" fill="none"
+                                                             xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8.03542 1.46458C8.03542 1.18843 7.81157 0.964577 7.53542 0.964577L3.03542 0.964577C2.75928 0.964577 2.53542 1.18843 2.53542 1.46458C2.53542 1.74072 2.75928 1.96458 3.03542 1.96458L7.03542 1.96458L7.03542 5.96458C7.03542 6.24072 7.25928 6.46458 7.53542 6.46458C7.81157 6.46458 8.03542 6.24072 8.03542 5.96458L8.03542 1.46458ZM0.817909 8.8892L7.88898 1.81813L7.18187 1.11102L0.110802 8.18209L0.817909 8.8892Z"
+                                                                  fill="#DB9641"/>
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="project__name">
+                                                Шоурум в Севкабель ПОРТ
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide projects__slide">
+                                        <div class="project">
+                                            <div class="project__top">
+                                                <div class="project__img">
+                                                    <img src="images/content/projects/4.jpg"
+                                                         alt="Двухкомнатная квартира в ЖК Петроский квартал">
+                                                </div>
+                                                <div class="project__wrap">
+                                                    <div class="project__chars">
+                                                        <div class="project__char">
+                                                            <div class="project__char-name">Площадь квартиры</div>
+                                                            <div class="project__char-val">84 кв.м.</div>
+                                                        </div>
+                                                        <div class="project__char">
+                                                            <div class="project__char-name">Стоимость за кв.м.</div>
+                                                            <div class="project__char-val">28 000 ₽</div>
+                                                        </div>
+                                                        <div class="project__char">
+                                                            <div class="project__char-name">Срок реализации проекта</div>
+                                                            <div class="project__char-val">6 месяцев</div>
+                                                        </div>
+                                                    </div>
+                                                    <a href="/" class="project__link">
+                                                        К проекту
+                                                        <svg width="9" height="9" viewBox="0 0 9 9" fill="none"
+                                                             xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8.03542 1.46458C8.03542 1.18843 7.81157 0.964577 7.53542 0.964577L3.03542 0.964577C2.75928 0.964577 2.53542 1.18843 2.53542 1.46458C2.53542 1.74072 2.75928 1.96458 3.03542 1.96458L7.03542 1.96458L7.03542 5.96458C7.03542 6.24072 7.25928 6.46458 7.53542 6.46458C7.81157 6.46458 8.03542 6.24072 8.03542 5.96458L8.03542 1.46458ZM0.817909 8.8892L7.88898 1.81813L7.18187 1.11102L0.110802 8.18209L0.817909 8.8892Z"
+                                                                  fill="#DB9641"/>
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="project__name">
+                                                Двухкомнатная квартира в ЖК Петроский квартал
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <div class="wrapper__footer">
+        <footer class="footer"></footer>
+    </div>
+</div>
+</body>
+</html>
